@@ -51,8 +51,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         public MyViewFolder(@NonNull View itemView) {
             super(itemView);
-            tv_book_title = (TextView) itemView.findViewById(R.id.book_title_id);
-            book_thumbnil=(ImageView) itemView.findViewById(R.id.book_image_id) ;
+            tv_book_title =  itemView.findViewById(R.id.book_title_id);
+            book_thumbnil= itemView.findViewById(R.id.book_image_id) ;
 
         }
     }
