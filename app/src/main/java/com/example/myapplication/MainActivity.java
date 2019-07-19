@@ -23,18 +23,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listBook=new ArrayList<>();
-        listBook.add(new Book("abc","cat",R.drawable.one));
-        listBook.add(new Book("def","cat",R.drawable.sec));
-        listBook.add(new Book("ghi","cat",R.drawable.three));
-        listBook.add(new Book("abc","cat",R.drawable.four));
-        listBook.add(new Book("abc","cat",R.drawable.one));
-        listBook.add(new Book("def","cat",R.drawable.sec));
-        listBook.add(new Book("ghi","cat",R.drawable.three));
-        listBook.add(new Book("abc","cat",R.drawable.four));
-        listBook.add(new Book("abc","cat",R.drawable.one));
-        listBook.add(new Book("def","cat",R.drawable.sec));
-        listBook.add(new Book("ghi","cat",R.drawable.three));
-        listBook.add(new Book("abc","cat",R.drawable.four));
+        listBook.add(new Book("abc","cat",R.drawable.path));
+        listBook.add(new Book("def","cat",R.drawable.poster));
+        listBook.add(new Book("ghi","cat",R.drawable.simba));
+        listBook.add(new Book("abc","cat",R.drawable.wp4396441));
+        listBook.add(new Book("abc","cat",R.drawable.poster));
+        listBook.add(new Book("def","cat",R.drawable.path));
+        listBook.add(new Book("ghi","cat",R.drawable.wp4396441));
+        listBook.add(new Book("abc","cat",R.drawable.simba));
+        listBook.add(new Book("abc","cat",R.drawable.path));
+        listBook.add(new Book("def","cat",R.drawable.poster));
+        listBook.add(new Book("ghi","cat",R.drawable.simba));
+        listBook.add(new Book("abc","cat",R.drawable.wp4396441));
 
 
 
